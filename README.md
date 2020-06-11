@@ -12,7 +12,7 @@ so that I have quick access to emails and GitHub profiles
 ```
 # Instructions for the Application:
 
-![Screenshot](./Assets/TeamProfileGenerator-demo.png)
+![Screenshot](./Assets/TeamProfileGenerator-demo.PNG)
 
 
 * Make sure to `npm install`.
