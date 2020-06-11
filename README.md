@@ -1,5 +1,7 @@
 # Team Profile Generator Summary:
 
+https://edatez.github.io/TeamProfile_Generator/
+
 A software engineering team generator command line application; a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person. You can find the unit tests that all parts of code pass.
 
 The application prompts the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. When the user completes building the team, the application creates an HTML file that displays a nicely formatted team roster based on the information provided by the user. 
