@@ -58,7 +58,7 @@ inquirer.prompt([
     // creating the object manager and then calling the menu to ask what to do next
 })
 function menu() {
-    // ask the user what's next; add engineer, add intern, render 
+    // asking the user what's next; add engineer, add intern, render 
     inquirer
         .prompt({
         type: "list",
@@ -68,15 +68,15 @@ function menu() {
 
     }).then(res=>{
 console.log (res.choice);
-        if (res.choice==="Engineer"){
+        if (res.choice==="engineer"){
             createEng()
-        }else if(res.choice==="Intern"){
+        }else if(res.choice==="intern"){
             createInt()
         }else{
             console.log("RENDER")
            var html = render(team)
             console.log(html)
-           // write the html file
+           // writing the html file
            fs.writeFile(outputPath, html, function(err){
            console.log (err)
            })
